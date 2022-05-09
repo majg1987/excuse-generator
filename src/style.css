@@ -1,1 +1,21 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 200px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 0.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 40px;
+}

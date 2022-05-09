@@ -33,5 +33,7 @@ window.onload = function() {
   function aleatorio(array) {
     return Math.floor(Math.random() * array.length);
   }
-  document.querySelector("#excuse").innerHTML = excuse();
+  document.querySelector("#generate").addEventListener("click", () => {
+    document.querySelector("#excuse").innerHTML = excuse();
+  });
 };
